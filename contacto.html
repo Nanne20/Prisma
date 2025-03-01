@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/ScrollTrigger.min.js"></script>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg py-3 navbar-dark shadow-sm ">
+        <div class="container bk-t">
+            <a class="navbar-brand logo" href="index.html"><img src="LOGO PRISMA PNG.png" class="nav-logo" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active txt-charcoal" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link txt-charcoal" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link txt-charcoal" href="portafolio.html">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link txt-charcoal" href="about-us.html">Sobre nosotros</a>
+                    </li>
+                </ul>
+                <button class="btn btn-primary ms-lg-3"><a href="contacto.html" class="text-decoration-none text-white text-wrap">Agenda una consulta</a></button>
+            </div>
+        </div>
+    </nav>
+
+    <div id="contact-form-section" class="form-area pt-5">
+        <div class="container d-flex justify-content-center flex-column ">
+            <div class="title text-center pt-3">
+                <h2 class="fw-bold display-4"><span>AGENDA TU BRIEF!</span></h2>
+            </div>
+            <div class="row single-form g-0 justify-content-center">
+                <div class="col-sm-12 col-lg-8">
+                    <div class="my-3">
+                        <form id="contactForm" class="p-5">
+                            <div class="mb-3">
+                                <label for="InputName" class="form-label fs-5">Nombre</label>
+                                <input type="text" class="form-control" id="InputName" aria-describedby="namelHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="InputEmail" class="form-label fs-5">Email</label>
+                                <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="InputDate" class="form-label fs-5">Fecha</label>
+                                <input type="date" class="form-control" id="InputDate" aria-describedby="datetlHelp">
+                            </div>
+                            <div class="mb-3 d-flex flex-row justify-content-between">
+                                <div class="mb-3 me-5">
+                                    <label for="InputTime" class="form-label fs-5">Hora</label> <br>
+                                    <input type="time" class="form-control form-control-custom" id="InputTime" aria-describedby="timeHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="InputService" class="form-label fs-5">Tipo de servicio</label><br>
+                                    <div class="select-wrapper">
+                                        <select class="form-control form-control-custom" id="InputService">
+                                            <option value=""></option>
+                                            <option value="service1">Diseño web</option>
+                                            <option value="service2">Branding</option>
+                                            <option value="service3">Motion Graphics</option>
+                                            <option value="service4">Diseño Grafico</option>
+                                            <option value="service5">Marketing digital</option>
+                                            <option value="service6">Ilustración</option>
+                                        </select>
+                                    </div><br>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="InputPhone" class="form-label fs-5">Número de teléfono</label>
+                                <input type="tel" class="form-control" id="InputPhone" aria-describedby="phoneHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="InputMessage" class="form-label fs-5">¿Algún detalle?</label>
+                                <textarea type="text" class="form-control" id="InputMessage" style="height: 20vh;"></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section id="footer" class="text-white py-5 mt-5">
+        <div class="container text-light text-center d-flex flex-column">
+            <a class="navbar-brand logo" href="index.html"><img src="img/LOGO PRISMA PNG.png" class="nav-logo" alt=""></a>
+            <small class="text-white-50">&copy; Copyright by Ibañez Mena Toro</small>
+        </div>
+    </section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/javascript/java.js"></script>
+<script src="javascript/validacion.js"></script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRISMA ESTUDIO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/ScrollTrigger.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<!-- navegador -->
+<nav class="navbar navbar-expand-lg py-3 navbar-dark shadow-sm ">
+    <div class="container bk-t">
+        <a class="navbar-brand logo" href="index.html"><img src="img/LOGO PRISMA PNG.png" class="nav-logo" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active txt-charcoal" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link txt-charcoal" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link txt-charcoal" href="portafolio.html">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link txt-charcoal" href="about-us.html">Sobre nosotros</a>
+                </li>
+            </ul>
+            <button class="btn btn-primary ms-lg-3 nav-button"><a href="contacto.html" class="text-decoration-none text-white text-wrap">Agenda una consulta</a></button>
+        </div>
+    </div>
+</nav>
+
+<main id="inicio">
+    <div class="container w-100">
+        <div id="hero" class="container">
+            <div class="images">
+              <div class="left img"></div>
+              <div class="right img"></div>
+            </div>
+            <div class="hero-image">
+              <div class="wrapper-img">
+                <div class="box"></div>
+                <div>
+                  <img class="image" src="img/3.png" />
+                </div>
+              </div>
+            </div>
+            <div class="header"><p class="title">prisma studio</p></div>
+            <div class="hero-container">
+              <div class="sidebar-text">003</div>
+              <div class="projects">Estudio</div>
+              <div class="img-nav">
+                <div class="prev">y2k</div>
+                <div class="next">3d</div>
+              </div>
+            </div>
+          </div>
+    </div>
+    
+
+    <section class="servicios-breve">
+        <div class="container">
+            <div class="box1">
+                <img src="img/Inicio_Web.png" alt="" />
+                <h4>Pagina Web</h4>
+                <p>
+                    Creamos sitios web modernos, responsivos y funcionales que ofrecen una experiencia de usuario excepcional. 
+                </p>
+            </div>
+            <div class="box2">
+                <img src="img/Inicio_Motion.png" alt="" />
+                <h4>Motion Design</h4>
+                <p>
+                    Creación de animaciones y gráficos en movimiento para vídeos promocionales, presentaciones y contenido multimedia.
+                </p>
+            </div>
+            <div class="box3">
+                <img src="img/Inicio_Marketing.png" alt="" />
+                <h4>Marketing Digital</h4>
+                <p>
+                    Ofrecemos servicios de gestión de redes sociales, campañas de email marketing, SEO y publicidad en línea para ayudarte a alcanzar tus objetivos de negocio.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="highlight" class="pb-4 shadow-sm">
+        <div class="row w-100">
+          <div class="col-lg-6 col-img"></div>
+          <div class="col-lg-6 py-5 d-flex align-items-center justify-content-center">
+            <div class="container">
+              <div class="row">
+                  <div class="col-md-10 offset-md-1 text-start">
+                    <h6 class="fw-normal fs-5">Oferta Especial</h6>
+                    <h2 class="display-5 fw-semibold pb-2 ">¡Desata tu creatividad!</h2>
+                    <p class="txt-ash">Por tiempo limitado, estamos ofreciendo un 20% de descuento en todos nuestros servicios de ilustración personalizada. Ya sea que necesites ilustraciones para libros, revistas, campañas publicitarias, contenido digital o cualquier otro proyecto, nuestro equipo de talentosos artistas está listo para dar vida a tus ideas.</p>
+                    <a href="contacto.html" class="btn  btn-primary mt-3">Agenda una cita</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    
+    
+
+
+    <div id="reviews" class="container my-5">
+        <h6 class="acento fw-normal fs-5 mb-0 text-center"> Let's hear it</h6>
+        <h2 class="display-4 fw-semibold text-center">Testimonios de Clientes</h2>
+      <div id="reviewCarousel" class="carousel slide mt-0" data-bs-ride="carousel">
+
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="d-flex justify-content-center align-items-center" style="height: 90vh;">
+                      <div class="card shadow-sm review-card text-center p-3">
+                          <img src="img/person 1.jpg" class="testimonial-image" alt="Person 1">
+                          <div class="card-body">
+                              <h5 class="card-title txt-dark">Juan Pérez</h5>
+                              <p class="card-text txt-dark">"Trabajar con Prisma ha sido una experiencia increíble. Su equipo de diseño web transformó nuestra presencia online con un sitio moderno y fácil de navegar. La atención al detalle y la creatividad superaron nuestras expectativas. ¡Altamente recomendados!"</p>
+                                <h6 class="blockquote-footer mt-3 fw-normal txt-purple">CEO de Innovatech</h6>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="d-flex justify-content-center align-items-center" style="height: 90vh;">
+                      <div class="card shadow-sm review-card text-center p-3">
+                          <img src="img/person 2.jpg" class="testimonial-image" alt="Person 2">
+                          <div class="card-body">
+                              <h5 class="card-title txt-dark">Laura Gómez</h5>
+                              <p class="card-text txt-dark">"Estamos encantados con el branding que Prisma desarrolló para nosotros. Desde el logotipo hasta la guía de estilo, todo refleja perfectamente nuestra visión y valores. Los comentarios que hemos recibido son excepcionales. ¡Gracias por ayudarnos a destacar!"</p>
+                              <h6 class="blockquote-footer mt-3 fw-normal txt-purple">Directora de Marketing en EcoBrands.</h6>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="d-flex justify-content-center align-items-center" style="height: 90vh;">
+                      <div class="card shadow-sm review-card text-center p-3">
+                          <img src="img/person 3.jpg" class="testimonial-image" alt="Person 3">
+                          <div class="card-body">
+                              <h5 class="card-title txt-dark">Carlos Hernández.</h5>
+                              <p class="card-text txt-dark">"Las ilustraciones personalizadas que Prisma creó para nuestra revista han elevado nuestro contenido a un nuevo nivel. Cada imagen cuenta una historia y capta la atención de nuestros lectores. Su profesionalismo y talento son inigualables. ¡Un trabajo excepcional!"</p>
+                              <h6 class="blockquote-footer mt-3 fw-normal txt-purple">Editor en Revista Cultura</h6>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="d-flex justify-content-center align-items-center" style="height: 90vh;">
+                      <div class="card shadow-sm review-card text-center p-3">
+                          <img src="img/person 4.jpg" class="testimonial-image" alt="Person 4">
+                          <div class="card-body">
+                              <h5 class="card-title txt-dark">Marta Rodríguez</h5>
+                              <p class="card-text txt-dark">"El equipo de Prisma nos impresionó con sus motion graphics para nuestra última campaña publicitaria. Las animaciones fueron dinámicas y cautivadoras, ayudándonos a transmitir nuestro mensaje de manera efectiva. ¡Sin duda volveremos a trabajar con ellos!"</p>
+                              <h6 class="blockquote-footer mt-3 fw-normal txt-purple">Gerente de Proyecto en Eventos Globales</h6>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#reviewCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#reviewCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+    </div>
+
+
+</main>
+
+<section id="footer" class="text-white py-5 mt-5">
+    <div class="container text-light text-center d-flex flex-column">
+        <a class="navbar-brand logo" href="html/index.html"><img src="img/LOGO PRISMA PNG.png" class="nav-logo" alt=""></a>
+        <small class="text-white-50">&copy; Copyright by Ibañez Mena Toro</small>
+    </div>
+</section>
+
+<script src="javascript/animacion.js"></script>
+<script src="javascript/animaciones.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="javascript/java.js"></script>
+
+<script>
+    gsap.from(".btn-primary", {duration: 1, y: 30, opacity: 0, delay: 1});
+    gsap.from(".carousel", {duration: 1, y: 30, opacity: 0, stagger: 0.2, delay: 0.5});
+</script>
+
+</body>
+</html>
